@@ -6,10 +6,10 @@ body {
 
 .container {
 	width: 380px;
-	margin:7% auto;
-	border-radius: 20px;
+	margin:5% auto;
+	border-radius: 25px;
 	background-color: rgba(53, 52, 52, 0.1);
-	box-shadow: 0 0 17px #333;
+	box-shadow: 0 0 20px #000000;
 }
 
 .header {
@@ -18,7 +18,7 @@ body {
 }
 
 .header h1 {
-	color: #333;
+	color: #312d2d;
 	font-size: 2rem;
 	margin-bottom: 80px;
 }
@@ -34,16 +34,16 @@ body {
 	outline: none;
 	padding-left: 40px;
 	box-sizing: border-box;
-	font-size: 1rem;
-	color: rgb(50, 50, 50);
+	font-size: 0.8rem;
+	color: rgb(12, 14, 13);
 	margin-bottom: 40px;
 }
 
 .main button {
 	padding-left: 0;
-	background-color: #83acf1;
+	background-color: #313d52;
 	letter-spacing: 1px;
-	font-weight: bold;
+    font-weight: bold;
 	margin-bottom: 70px;
 }
 

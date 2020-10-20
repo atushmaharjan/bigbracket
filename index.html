@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+	<title>login</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <form method="POST" action="index.php">
-        
-        <div class="container"> 
-            <label><b>Username</b></label> 
-            <input type="text" placeholder="Enter Username" name="name" required> 
-  
-            <label><b>Password</b></label> 
-            <input type="password" placeholder="Enter Password" name="psw" required> 
-  
-            <button type="submit">Login</button> 
-        </div> 
-  
-        <div class="container" style="background-color:#f1f1f1"> 
-            <button type="button" class="cancelbtn">Cancel</button> 
-            <span class="psw">Forgot <a href="#">password?</a></span> 
-        </div> 
-    </form>
+ <div class="container">
+ 	<div class="header">
+ 		<h1>Log in Here</h1>
+ 	</div>
+ 	<div class="main">
+ 		<form>
+ 			<span>
+ 				<input type="text" placeholder="Username" name="Username">
+ 			</span><br>
+ 			<span>
+ 				<input type="password" placeholder="Password" name="Password">
+ 			</span><br>
+                 <button>Login</button>
+                 
+
+ 		</form>
+ 	</div>
+ </div>
 </body>
 </html>

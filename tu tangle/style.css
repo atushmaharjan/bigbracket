@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+header{
+    height: 8rem;
+}
+header .heading{
+    padding-left: 20px;
+    height: 65%;
+    background: 00FFFF;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+.heading--head{
+    background: #00FFFF;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+
+}
+li{
+    cursor: pointer;
+   display: inline-block;
+}
+.topleft{
+    align-items: center;
+
+}
+.topright{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 4rem;
+    color: black;
+    letter-spacing: 0.2rem;
+    margin-right: 1rem;
+
+}
+input[type=text]{
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 0.2rem 1rem;
+    font-size: 0.9rem;
+    background: #d4ebeb;
+    border-radius: 3rem;
+    margin-right: 0.8rem;
+}
+header .heading .topleft input[type=submit]{
+    cursor: pointer;
+    background:#191520;
+    border-radius: 0.8rem;
+    padding: 0.3rem 1rem;
+    color: #ffffff;
+    outline: none;
+}
+header .heading .topright{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+header .heading .topright h1{
+    font-weight: 250;
+    font-size: 1rem;
+}
+header .heading .topright ul li{
+    padding: 0.1rem;
+    font-size: 0.8em;
+}
+header nav{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    background: #cec6c6;;
+
+}
+header nav .lists ul li{
+    padding: 1rem 1rem;
+}
+.friendrequest{
+    color:#769191;
+    padding: 1rem 1rem;
+
+}
+header navbar .lists ul li:hover
+{
+    color:grey;
+    background: #ffffff;
+}
+

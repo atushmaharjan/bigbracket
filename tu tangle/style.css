@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    height: 8rem;
+    height: 9rem;
 }
 header .heading{
     padding-left: 20px;
@@ -92,3 +92,19 @@ header navbar .lists ul li:hover
     background: #ffffff;
 }
 
+.body-content
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-content .content
+{
+    margin: 0rem 1rem;
+}
+.body-content .searches
+{
+    width: 25%;
+    background: rgb(204, 200, 200);
+}

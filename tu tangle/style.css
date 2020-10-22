@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header*/
+
+
+
+header{
+    height: 9rem;
+}
+
+header .heading{
+    padding-left: 20px;
+    height: 65%;
+    background: #00ffff;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+
+.heading--head{
+    background: #00ffff;
+    display: grid;
+}
+
+li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+ .topleft{
+    display: flex;
+    align-items: center;
+
+}
+
+ a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #000000;
+    margin-right: 5rem;
+
+}
+
+ input[type=text]{
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 0.4rem 1rem;
+    font-size: 0.7rem;
+    background: rgb(197,229,248);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+header .heading .topleft input[type=submit]{
+    background: #171b3a;
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+header .heading .topright{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+header .heading .topright p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+header .heading .topright ul li{
+    padding: 1px;
+    font-size: 0.8em;
+}
+
+header .heading .topright ul li: hover{
+    color: #ffffff;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background: #c9c4c4;
+
+}
+header nav .lists ul li{
+    padding: 1rem 1rem;
+}
+
+.friendrequest{
+    color: #a39e9e;
+
+}
+
+header navbar .lists ul li:hover
+{
+    color: #c9c4c4;
+    background: #ffffff;
+}
+
+.infobar
+{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+header navbar .infobar ul li
+{
+    margin-right: 2rem;
+}
+
+
+/* body */
+
+.body-content
+{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .content
+{
+    margin: 0rem 1rem;
+}
+ .searches
+{
+    width: 15%;
+    background:#c9c4c4;
+}
+
+
+.searches li:hover
+{
+    background-color: #ffffff;
+}
+
+
+ .tutorials 
+{
+    width: 13%;
+    background: #c9c4c4;
+}
+ .recent .topic
+{
+    background: #00ffff;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+ .topic:hover
+{
+    background: #00ffff);
+}
+ .recent li
+{
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+}
+ .recent li:hover
+{
+    background: #ffffff;
+}
+
+footer
+{
+    font-size: 1rem;
+    color: #ffffff;
+    background: #a39e9e;
+}
+
+footer ul li
+{
+    list-style: circle;
+    padding: 1rem 1rem;
+}
+footer ul .right
+{
+    float: right;
+}
+footer ul .right:hover
+{
+    color: white;
+}

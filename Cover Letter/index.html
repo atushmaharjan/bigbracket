@@ -8,10 +8,11 @@
 <body>
  <div class="container">
  	<div class="header">
- 		<h1>Enter the details</h1>
- 	</div>
+ 		<h1>Np Domain Registration Cover Letter Generator</h1>
+	 </div>
+	 
  	<div class="main">
- 		<form>
+ 		<form name="cover">
  			<span>
 				<h2> Full Name:</h2>
  				<input type="text" placeholder="Full Name" name="eame">
@@ -30,9 +31,14 @@
 			</span><br>
 			<span>
 				<h2> Domain name Extension:</h2>
-				<input type="text" placeholder="Domain Name" name="domain">
-			</span><br>
-                 <button>Submit</button>
+				<select id="Domain Extension" name="Domain Extension">
+					<option value="com.np">com.np</option>
+					<option value="info.np">info.np</option>
+					<option value="pro.np">pro.np</option>
+					<option value="biz.np">biz.np</option>
+				  </select>
+			</span><br><br>
+                 <button>Generate</button>
                  
 
  		</form>

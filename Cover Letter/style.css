@@ -8,8 +8,8 @@ body {
 	width: 30rem;
 	margin:3% auto;
 	border-radius: 1rem;
-	background-color: rgba(53, 52, 52, 0.1);
-	box-shadow: 0 0 0.8rem #000000;
+	background-color: rgba(165, 163, 163, 0.1);
+	box-shadow: 0 0 0.8rem #272727;
 }
 
 .header {
@@ -41,6 +41,12 @@ body {
 	color: rgb(12, 14, 13);
 	cursor: pointer;
 }
+.main input[type="submit"]{
+	padding-left: 0;
+	background-color: #313d52;
+    font-weight: bold;
+	margin-bottom: 2rem;
+}
 
 .main h2{
 	color: #312d2d;
@@ -49,12 +55,6 @@ body {
 	padding-left: 2.5rem;
 }
 
-.main button {
-	padding-left: 0;
-	background-color: #313d52;
-    font-weight: bold;
-	margin-bottom: 2rem;
-}
 
 .main span {
 	position: relative;

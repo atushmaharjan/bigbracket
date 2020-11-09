@@ -13,7 +13,7 @@
 	 </div>
 	 
  	<div class="main">
- 		<form name="cover">
+ 		<form method="get" action="redirect.html" name="cover">
  			<span>
 				<h2> Full Name:</h2>
  				<input type="text" placeholder="Full Name" name="name">
@@ -29,31 +29,23 @@
 			</span><br>
 			<span>
 				<h2> Domain Name:</h2>
-				<input type="text" placeholder="Domain Name" name="domain">
+				<input type="text" placeholder="Domain Name" name="domainName">
 			</span><br>
 			<span>
 				<h2> Domain name Extension:</h2>
-				<select id="Domain Extension" name="Domain Extension">
+				<select id="Domain Extension" name="domainExtension">
 					<option value="com.np">com.np</option>
 					<option value="info.np">info.np</option>
 					<option value="pro.np">pro.np</option>
 					<option value="biz.np">biz.np</option>
 				  </select>
 			</span><br><br>
-			<!-- <button onclick="myFunction()" id="btn">Generate</button> -->
-
+			<input type="submit" value="Generate"/>
 		 </form>
-		 <button onclick="myFunction()" id="btn">Generate</button>
-
-		
  	</div>
  </div>
-<!-- <script src="main.js"></script> -->
-
-<script>
-	function myFunction() {
-	  location.replace("redirect.html")
-	}
+<script src="main.js">
+	
 	</script>
 </body>
 </html>

@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	
  <div class="container">
  	<div class="header">
  		<h1>Np Domain Registration Cover Letter Generator</h1>
@@ -15,8 +16,9 @@
  		<form name="cover">
  			<span>
 				<h2> Full Name:</h2>
- 				<input type="text" placeholder="Full Name" name="eame">
- 			</span><br>
+ 				<input type="text" placeholder="Full Name" name="name">
+			 </span><br>
+			
  			<span>
 				<h2> Email:</h2>
  				<input type="text" placeholder="Email" name="email">
@@ -38,11 +40,20 @@
 					<option value="biz.np">biz.np</option>
 				  </select>
 			</span><br><br>
-                 <button>Generate</button>
-                 
+			<!-- <button onclick="myFunction()" id="btn">Generate</button> -->
 
- 		</form>
+		 </form>
+		 <button onclick="myFunction()" id="btn">Generate</button>
+
+		
  	</div>
  </div>
+<!-- <script src="main.js"></script> -->
+
+<script>
+	function myFunction() {
+	  location.replace("redirect.html")
+	}
+	</script>
 </body>
 </html>

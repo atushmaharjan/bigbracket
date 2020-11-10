@@ -1,14 +1,30 @@
 .container {
-	width: 35rem;
-	height: 40rem;
+	width: 45rem;
+	height: 39rem;
 	margin:3% auto;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
 }
-.top{
+.header{
 	text-align: right;
 	
 }
+.subject{
+	text-align: center;
+	font-weight: bold;
+	padding: 1rem;
+	padding-top: 1rem;
+}
+.footer{
+	padding-top: 1rem;
+	font-weight: bold;
+}
 
-
+.content{
+	padding-top: 1rem;
+	text-align: justify;
+	word-spacing: 0.4rem;
+}
 input[type="submit"]{
 	padding-left: 0;
 	background-color: #35c754;

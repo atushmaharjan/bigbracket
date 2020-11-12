@@ -1,0 +1,36 @@
+body {
+	background: linear-gradient(-90deg, #ee7752, #6ee63f, #23a6d5, #23d5ab);
+	background-size: 210% 210%;
+	animation: gradient 12s ease infinite;
+}
+body, topic{
+    text-align: center;
+    text-justify: auto;
+    font-size: 3rem;
+    font-family: Goudy Bookletter 1911, sans-serif;
+}
+.container {
+
+	background-color: rgba(165, 163, 163, 0.1);
+    font-size: 1rem;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+.container2{
+	background-color: rgba(165, 163, 163, 0.1);
+    font-size: 1rem;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+.detail{
+    position: absolute;
+    width: 100%;
+    margin-top: 10rem;
+    padding-top: 2rem;
+}
+.expenseinput{
+    font-size: 1rem;
+    
+}

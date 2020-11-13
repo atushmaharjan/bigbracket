@@ -39,6 +39,7 @@ body, topic{
     width: 100%;
     margin-top: 20rem;
     padding-top: 2rem;
+    font-size: 2rem;
 }
 .expenseinput{
     font-size: 1rem;
@@ -47,6 +48,6 @@ body, topic{
 .expense-list{
     position: absolute;
     width: 100%;
-    margin-top: 60rem;
+    margin-top: 30rem;
     padding-top: 2rem;
 }

@@ -1,7 +1,7 @@
+
 body {
-	background: linear-gradient(-90deg, #ee7752, #6ee63f, #23a6d5, #23d5ab);
+	background: linear-gradient(90deg, #6ee63f, #ee7752, #23a6d5, #23d5ab);
 	background-size: 210% 210%;
-	animation: gradient 12s ease infinite;
 }
 body, topic{
     text-align: center;
@@ -10,15 +10,25 @@ body, topic{
     font-family: Goudy Bookletter 1911, sans-serif;
 }
 .container {
-
-	background-color: rgba(165, 163, 163, 0.1);
     font-size: 1rem;
     position: absolute;
     left: 0px;
     width: 50%;
 }
+.container,button{
+    cursor: pointer;
+    width: 50%;
+    height: 2.3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.container,input{
+    width: 49%;
+    height: 2rem;
+}
+
 .container2{
-	background-color: rgba(165, 163, 163, 0.1);
     font-size: 1rem;
     position: absolute;
     right: 0px;
@@ -27,10 +37,16 @@ body, topic{
 .detail{
     position: absolute;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 20rem;
     padding-top: 2rem;
 }
 .expenseinput{
     font-size: 1rem;
-    
+
+}
+.expense-list{
+    position: absolute;
+    width: 100%;
+    margin-top: 60rem;
+    padding-top: 2rem;
 }

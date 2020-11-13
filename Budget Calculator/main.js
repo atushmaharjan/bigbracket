@@ -9,6 +9,8 @@ function addBudget(){
 }
 
 function addExpense(){
+    expensetitle= document.getElementById('budgetinputtitle').value
+
     expense = parseInt(document.getElementById('amountinput').value)
     budget = parseInt(document.getElementById('budget-amount').innerText)
     if(count===0){
@@ -19,4 +21,11 @@ function addExpense(){
     }
     document.getElementById('expense-amount').innerText = expense
     document.getElementById('balance-amount').innerText= balance
+
+
+    
+    document.getElementById('expenseamountshow').innerText = expense
+    document.getElementById('expensetitle').innerText = expensetitle
+    
+
 }

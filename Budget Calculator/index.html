@@ -18,7 +18,7 @@
     <div class="container2">
         <form onsubmit="event.preventDefault(); addExpense()" id="expenseform" class="expenseform">
             <h2>Please enter your Expenses Title:</h2>
-            <input type="text" class="expenseinput" id="budgetinputtitle"><br>
+            <input required type="text" class="expenseinput" id="budgetinputtitle"><br>
             <h2>Please enter your Expenses Amount:</h2>
             <input type="number" class="expenseinput" id="amountinput"><br>
             <button type="submit" class="budgetsubmit2" id="budgetsubmit2">Calculate</button>
@@ -35,10 +35,20 @@
               <span>Rs. </span><span id="balance-amount">0</span></br>           
     </div>
     <div class="expense-list" id="expense-list">        
-        Expense title
+        <!-- Expense title
         Expense value</br>
         <span id="expensetitle"></span>
-        <span id="expenseamountshow"></span>      
+        <span id="expenseamountshow"></span>       -->
+
+        <table>
+            <tbody id="tbody">
+                <tr>
+                    <th>Expense title</th>
+                    <th>expense amount</th>
+                    <th>Delete</th>
+                </tr>
+            </tbody>
+        </table>
     </div>
     
     <script src="main.js"></script>

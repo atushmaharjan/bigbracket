@@ -1,5 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(230, 223, 223);
 }
 
 .display{
@@ -12,7 +13,6 @@ body{
      "container container2"
      "detail expense-list";
      grid-gap: 0.5rem;
-
 }
 
 .nav{
@@ -20,42 +20,62 @@ body{
     grid-area: nav;
     text-align: center;
     font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container{
-
+    margin-top: 1rem;
     grid-area: container;
     text-align: center;
 }
-.container,button{
+.container, button{
     cursor: pointer;
     width: 50%;
     height: 2.3rem;
     font-size: 1rem;
     margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: transparent; 
+    border-color: seagreen;
 }
 .container,input{
     width: 49%;
     height: 2rem;
+    border-radius: 0.5rem;
+    background-color: transparent; 
 }
 .container2{
+    margin-top: 1rem;
     grid-area: container2;
     text-align: center;
+    
+}
+.button{
+    color: red;
 }
 .detail{
     grid-area: detail;
     text-align: center;
-    line-height: 3rem;
+    line-height: 4rem;
     font-size: 2rem;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bud{
+    color:green;
+}
+.exp{
+    color: red;
 }
 .expense-list{
     grid-area: expense-list;
 }
 
 table, td, tr, th{
-    border: 1px solid #000;
     border-collapse: collapse;
+    padding-right: 3rem;
+}
+td{
+    color: red;
 }
 .deleteBtn{
     border: none;
@@ -66,4 +86,5 @@ table, td, tr, th{
     height: 100%;
     margin-bottom: 0.2rem;
     margin-top: 0.2rem;
+    border-color: red;
 }

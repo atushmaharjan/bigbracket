@@ -1,19 +1,31 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-body {
-	background: linear-gradient(90deg, #6ee63f, #ee7752, #23a6d5, #23d5ab);
-	background-size: 210% 210%;
+.display{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.5fr;
+    grid-template-areas:
+     "nav nav"
+     "container container2"
+     "detail expense-list";
+     grid-gap: 0.5rem;
+
 }
-body, topic{
-    text-align: center;
-    text-justify: auto;
+
+.nav{
     font-size: 3rem;
-    font-family: Goudy Bookletter 1911, sans-serif;
+    grid-area: nav;
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.container {
-    font-size: 1rem;
-    position: absolute;
-    left: 0px;
-    width: 50%;
+.container{
+
+    grid-area: container;
+    text-align: center;
 }
 .container,button{
     cursor: pointer;
@@ -22,51 +34,36 @@ body, topic{
     font-size: 1rem;
     margin-top: 1rem;
 }
-
 .container,input{
     width: 49%;
     height: 2rem;
 }
-
 .container2{
-    font-size: 1rem;
-    position: absolute;
-    right: 0px;
-    width: 50%;
+    grid-area: container2;
+    text-align: center;
 }
 .detail{
-    position: absolute;
-    width: 100%;
-    margin-top: 20rem;
-    padding-top: 2rem;
+    grid-area: detail;
+    text-align: center;
+    line-height: 3rem;
     font-size: 2rem;
-}
-.expenseinput{
-    font-size: 1rem;
-
+    font-weight: bold;
 }
 .expense-list{
-    position: absolute;
-    width: 100%;
-    margin-top: 31rem;
-    font-size: 2.5rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    grid-area: expense-list;
 }
 
 table, td, tr, th{
     border: 1px solid #000;
     border-collapse: collapse;
 }
-
 .deleteBtn{
-    background-color: orange;
     border: none;
     outline: none;
-    padding-top: .5rem 1rem;
-    color: #fff;
+    color: rgb(230, 36, 36);
     border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
 }

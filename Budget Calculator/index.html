@@ -7,7 +7,8 @@
     <title>Budget Calculator</title>
 </head>
 <body>
-    <div class="topic">Budget Calculator</div>
+    <div class="display">
+    <div class="nav">Budget Calculator</div>
     <div class="container">
         <form onsubmit="event.preventDefault(); addBudget()" id="budgetform" class="budgetform">
             <h2>Enter your Budget Amount:</h2>
@@ -28,10 +29,10 @@
              Budget:
              <span>Rs. </span><span id="budget-amount">0</span></br>
             
-             Expenses:             
+             Expenses:      
              <span>Rs. </span><span id="expense-amount">0</span></br>
             
-             Balance:             
+             Balance:  
               <span>Rs. </span><span id="balance-amount">0</span></br>           
     </div>
     <div class="expense-list" id="expense-list">        
@@ -43,13 +44,14 @@
         <table>
             <tbody id="tbody">
                 <tr>
-                    <th>Expense title</th>
-                    <th>expense amount</th>
+                    <th>Expense Title</th>
+                    <th>Expense Amount</th>
                     <th>Delete</th>
                 </tr>
             </tbody>
         </table>
     </div>
+</div>
     
     <script src="main.js"></script>
 </body>
